@@ -17,18 +17,24 @@ After downloading, extract the dataset into the `dataset/` directory in the proj
 
 ## Project Structure
 
-| Name               | Type    | Description                                                              |
-|--------------------|---------|--------------------------------------------------------------------------|
-| `README.md`        | File    | Project overview and documentation (this file)                           |
-| `train.py`         | File    | Script to train DeepLabV3+ on the FINE dataset                           |
-| `predict.py`       | File    | Script to run inference using a trained model                            |
-| `utils/`           | Folder  | Helper functions (preprocessing, metrics, visualization, etc.)           |
-| `configs/`         | Folder  | YAML/JSON config files for training and inference                        |
-| `checkpoints/`     | Folder  | Stores trained model checkpoints                                         |
-| `dataset/`         | Folder  | Local directory for the FINE dataset                                     |
-| `visuals/`         | Folder  | Outputs like segmented images or training visualizations                 |
-| `.gitignore`       | File    | Specifies files/folders ignored by Git                                   |
-| `requirements.txt` | File    | Lists Python dependencies                                                |
+| Name                 | Type    | Description                                                        |
+|----------------------|---------|--------------------------------------------------------------------|
+| `README.md`          | File    | Project overview and documentation (this file)                     |
+| `_scripts/`          | Folder  | Folder including all scripts for data preprocessing                |
+| `_data/`             | Folder  | Save dataset here                                                  |
+| `../main.py`         | File    | Main script to run the model or pipeline                           |
+| `../custom_train.sh` | File    | Shell script to run training; parameters can be adjusted here      |
+| `../checkpoints/`    | Folder  | Stores trained model checkpoints                                   |
+| `../results/`        | Folder  | Stores visual results (images of predictions, etc.)                |
+
+---
+
+## Training
+
+To run the training command, do this in terminal:
+```bash
+path/to/custom_train.sh
+```
 
 ---
 
