@@ -26,6 +26,7 @@ After downloading, extract the dataset into the `dataset/` directory in the proj
 | `DeepLabV3Plus-Pytorch/custom_train.sh`         | File    | Shell script to run training; parameters can be adjusted here      |
 | `DeepLabV3Plus-Pytorch/checkpoints/`            | Folder  | Stores trained model checkpoints                                   |
 | `DeepLabV3Plus-Pytorch/results/`                | Folder  | Stores visual results (images of predictions, etc.)                |
+| `visdom.png`                                    | File    | Shows a printscreen of training metric plots on visdom             |
 
 ---
 
