@@ -17,15 +17,15 @@ After downloading, extract the dataset into the `dataset/` directory in the proj
 
 ## Project Structure
 
-| Name                 | Type    | Description                                                        |
-|----------------------|---------|--------------------------------------------------------------------|
-| `README.md`          | File    | Project overview and documentation (this file)                     |
-| `_scripts/`          | Folder  | Folder including all scripts for data preprocessing                |
-| `_data/`             | Folder  | Save dataset here                                                  |
-| `../main.py`         | File    | Main script to run the model or pipeline                           |
-| `../custom_train.sh` | File    | Shell script to run training; parameters can be adjusted here      |
-| `../checkpoints/`    | Folder  | Stores trained model checkpoints                                   |
-| `../results/`        | Folder  | Stores visual results (images of predictions, etc.)                |
+| Name                                            | Type    | Description                                                        |
+|-------------------------------------------------|---------|--------------------------------------------------------------------|
+| `README.md`                                     | File    | Project overview and documentation (this file)                     |
+| `_scripts/`                                     | Folder  | Folder including all scripts for data preprocessing                |
+| `_data/`                                        | Folder  | Save dataset here                                                  |
+| `DeepLabV3Plus-Pytorch/main.py`                 | File    | Main script to run the model or pipeline                           |
+| `DeepLabV3Plus-Pytorch/custom_train.sh`         | File    | Shell script to run training; parameters can be adjusted here      |
+| `DeepLabV3Plus-Pytorch/checkpoints/`            | Folder  | Stores trained model checkpoints                                   |
+| `DeepLabV3Plus-Pytorch/results/`                | Folder  | Stores visual results (images of predictions, etc.)                |
 
 ---
 
