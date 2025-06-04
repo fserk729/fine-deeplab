@@ -36,6 +36,6 @@ pip install -r requirements.txt
 
 ---
 
-## Author
+## Author 
 
 Fabian Serkeyn (EhB) @ ILVO
