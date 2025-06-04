@@ -33,9 +33,11 @@ Download it here (password: `gitpassfine`):
 
 ```bash
 pip install -r requirements.txt
+```
 
 ```markdown
 
 ## Author 
 
 Fabian Serkeyn (EhB) @ ILVO
+```
