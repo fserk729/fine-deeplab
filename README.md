@@ -28,14 +28,13 @@ Download it here (password: `gitpassfine`):
 | `requirements.txt` | File    | Lists Python dependencies for installing required packages               |
 
 ---
-
+```markdown
 ## Installation
 
 ```bash
 pip install -r requirements.txt
 
 ```markdown
----
 
 ## Author 
 
